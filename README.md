@@ -1,2 +1,2 @@
 # SONOFF_DIY
-Sonoff Diy Turorial for openHAV
+Sonoff Diy Turorial for openHAB
