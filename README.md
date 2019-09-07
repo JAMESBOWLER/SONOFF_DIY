@@ -89,7 +89,7 @@ Self explanatory turns relay on and off (lower case)
 ### Power on state
 
 | Attribute | Description                                                  |
-| :-------: | :------: | :-----------------------------------------------------------|
+| :-------: | :-----------------------------------------------------------|
 |  startup  | **on:** the device is on when power supply is recovered. <br/>**off:** the device is off when power supply is recovered. <br/>**stay:** the device status keeps as the same as the state before power supply is gone |
 
 ### Pulse
@@ -100,8 +100,8 @@ When the pulse / delay off timer is enabled on the sonoff it will automaticy shu
 
   If used for external flood light you can setup a motion sensor to trigger sonoff to turn on. After the disired time it will turn off automaticly. It can also be turned on and off via openhab to turn on all the time during a party.  
 
-| Attribute  | Description                                                  |
-| :--------: | :----: | :------: | :----------------------------------------------------------- |
+| Attribute  | Description                                                |
+| :--------: | :------: | :----------------------------------------------------------- |
 |   pulse    | **on:** activate the inching function; <br/>**off:** disable the inching function |
 | pulseWidth | Required when "pulse" is on, pulse time length, positive integer, ms, only supports multiples of 500 in range of 500~36000000 |
 
