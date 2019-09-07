@@ -1,0 +1,8 @@
+//  Sonoff One Located in the Lounge Room
+
+Switch sonoff_one "Lounge Light" <switch> (gLounge) [ "Lighting" ]
+String sonoff_one_startup "Startup"
+String sonoff_one_pulse "Pulse"
+Number sonoff_one_pulseWidth 
+String sonoff_one_ssid "SSID"
+String sonoff_one_otaUnlock "OTA Lock"

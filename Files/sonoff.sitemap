@@ -1,0 +1,11 @@
+sitemap sonoff label="sonoff_one" {
+  Frame label="Lounge" {
+    Switch item=sonoff_one icon="light"
+    Switch item=sonoff_one_startup label="Power on State" icon="none" mappings=[on="ON",off="OFF",stay="KEEP"]
+    Switch item=sonoff_one_pulse icon="none" label="Pulse/ Run timer enable" mappings=[on="ON",off="OFF"]
+    Setpoint item=sonoff_one_pulseWidth icon="time" label="Pulse time max 1 hr [JS(msToTime.js):%s]" minValue=1000 maxValue=36000000 step=1000 
+    Text item=sonoff_one_ssid icon="none" label="SSID [%s]"
+    Text item=sonoff_one_otaUnlock icon="none" label="OTA Unlock [%s]"
+  }
+
+}
