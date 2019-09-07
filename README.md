@@ -18,6 +18,7 @@ It's working with:
 <img align="right" width="184" height="154" src="pics/MINI_12N.jpg">
 
 </br>
+
 * [x] Sonoff wired and powered
 
 * [x] Updated to the latest firmware using **[eWeLink](https://sonoff.tech/ewelink) -  3.3.0**
